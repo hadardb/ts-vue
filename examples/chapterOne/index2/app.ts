@@ -3,7 +3,7 @@
  * @Author: Haojin Sun
  * @Date: 2019-12-18 19:07:06
  * @LastEditors  : Haojin Sun
- * @LastEditTime : 2019-12-18 19:09:53
+ * @LastEditTime : 2019-12-20 09:57:06
  */
 import Dep from "../../../src/core/Dep"
 import Watcher from "../../../src/core/Watcher"
@@ -49,7 +49,7 @@ let data : DataType= {
 
 defineReactive(data.name, 'x', '123')
 let dom = document.createElement('div')
-let watch = new Watcher(data, 'name.x', function (oldValue, newValue) {
+let watch = new Watcher(data, 'name.x', function (oldValue:any, newValue:any) {
     console.log(oldValue)
     console.log(newValue)
 })

@@ -3,7 +3,7 @@
  * @Author: Haojin Sun
  * @Date: 2019-12-19 11:24:32
  * @LastEditors  : Haojin Sun
- * @LastEditTime : 2019-12-19 15:57:38
+ * @LastEditTime : 2019-12-20 09:50:31
  */
 /*
  * @name: 文件
@@ -12,7 +12,7 @@
  * @LastEditors  : Haojin Sun
  * @LastEditTime : 2019-12-19 11:25:34
  */
-import { DepType, WatcherType } from "../types"
+import { DepType } from "../types"
 
 
 export default class Dep implements DepType {

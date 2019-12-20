@@ -3,7 +3,7 @@
  * @Author: Haojin Sun
  * @Date: 2019-12-18 19:57:44
  * @LastEditors  : Haojin Sun
- * @LastEditTime : 2019-12-18 19:58:25
+ * @LastEditTime : 2019-12-20 09:45:10
  */
 const express = require('express')
 const bodyParser = require('body-parser')
@@ -29,6 +29,6 @@ app.use(express.static(__dirname))
 
 const port = process.env.PORT || 8085
 module.exports = app.listen(port, () => {
-  console.log(`Server listening on http://localhost:${port}, Ctrl+C to stop`)
+  console.log(`Server listening on http://localhost:${port} , Ctrl+C to stop`)
 })
 

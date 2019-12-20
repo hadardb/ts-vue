@@ -3,7 +3,7 @@
  * @Author: Haojin Sun
  * @Date: 2019-12-18 19:40:59
  * @LastEditors  : Haojin Sun
- * @LastEditTime : 2019-12-18 19:41:18
+ * @LastEditTime : 2019-12-20 09:50:01
  */
 
 export interface DepType {
@@ -15,14 +15,6 @@ export interface DepType {
 }
 
 
-export interface WatcherType{
-    vm: Object
-    cb: Function
-    value: any
-    getter: Function
-    get(): any
-    update(): void
-}
 
 export interface DataType extends Object{
     [propName: string]: any

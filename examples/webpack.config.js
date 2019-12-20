@@ -3,7 +3,7 @@
  * @Author: Haojin Sun
  * @Date: 2019-12-18 19:34:04
  * @LastEditors  : Haojin Sun
- * @LastEditTime : 2019-12-18 19:34:53
+ * @LastEditTime : 2019-12-20 09:47:37
  */
 const fs = require('fs')
 const path = require('path')
@@ -13,8 +13,8 @@ module.exports = {
   mode: 'development',
 
   /**
-   * 我们会在 examples 目录下建多个子目录
-   * 我们会把不同章节的 demo 放到不同的子目录中
+   * 在 examples 目录下建多个子目录
+   * 把不同章节的 demo 放到不同的子目录中
    * 每个子目录的下会创建一个 app.ts
    * app.ts 作为 webpack 构建的入口文件
    * entries 收集了多目录个入口文件，并且每个入口还引入了一个用于热更新的文件
